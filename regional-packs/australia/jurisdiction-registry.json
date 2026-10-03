@@ -1,0 +1,331 @@
+{
+  "pack_version": "0.1.0",
+  "jurisdictions": [
+    {
+      "jurisdiction_id": "AU-CTH-MARINE",
+      "name": "Australian Marine Parks overlay",
+      "readiness": "REFERENCE_READY",
+      "authority": "Parks Australia / DCCEEW",
+      "water_regimes": [
+        "COMMONWEALTH_MARINE_PARK"
+      ],
+      "official_sources": [
+        {
+          "source_id": "AU-CTH-MARINE-PARKS",
+          "url": "https://parksaustralia.gov.au/marine-parks/",
+          "purpose": [
+            "PROTECTED_AREA_OVERLAY"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-CTH-MARINE-SPATIAL",
+          "url": "https://www.dcceew.gov.au/environment/marine/marine-bioregional-plans/marine-spatial-information",
+          "purpose": [
+            "SPATIAL_OVERLAY_DISCOVERY"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ],
+      "notes": [
+        "Commonwealth overlay may coexist with state/territory fishing rules."
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-ACT",
+      "name": "Australian Capital Territory",
+      "readiness": "REFERENCE_READY",
+      "authority": "ACT Government",
+      "water_regimes": [
+        "INLAND_FRESHWATER"
+      ],
+      "licence_model": "NO_GENERAL_RECREATIONAL_LICENCE_FOR_PUBLIC_ACT_WATERS; VERIFY_CURRENT_RULES",
+      "official_sources": [
+        {
+          "source_id": "AU-ACT-REC-FISHING",
+          "url": "https://www.act.gov.au/environment/animals-and-plants/animals/wildlife-management/fish/recreational-fishing-in-the-act",
+          "purpose": [
+            "RULES",
+            "SEASONS",
+            "AREA_CLASSIFICATION"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-NSW",
+      "name": "New South Wales",
+      "readiness": "REFERENCE_READY",
+      "authority": "NSW DPIRD / Service NSW",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER"
+      ],
+      "licence_model": "GENERAL_RECREATIONAL_FISHING_FEE_WITH_EXEMPTIONS; VERIFY_USER_ELIGIBILITY",
+      "mode_overlays": [
+        "ROCK_FISHING_DECLARED_AREA_LIFEJACKET_REQUIREMENTS_MAY_APPLY"
+      ],
+      "official_sources": [
+        {
+          "source_id": "AU-NSW-FISHSMART",
+          "url": "https://www.dpird.nsw.gov.au/fishing/recreational/resources/fishsmart-app",
+          "purpose": [
+            "CURRENT_RULE_GUIDANCE",
+            "CLOSURES",
+            "SPATIAL_REFERENCE"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-NSW-FISHING-FEE",
+          "url": "https://www.dpird.nsw.gov.au/fishing/recreational/recreational-fishing-fee",
+          "purpose": [
+            "LICENCE_FEE"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-NT",
+      "name": "Northern Territory",
+      "readiness": "PROSPECT_READY_FOR_AU-NT-DARWIN",
+      "authority": "Northern Territory Government / NT Legislation",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER"
+      ],
+      "official_sources": [
+        {
+          "source_id": "AU-NT-EXISTING-PACK",
+          "purpose": [
+            "DELEGATE_TO_EXISTING_DARWIN_NT_PACK"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-QLD",
+      "name": "Queensland",
+      "readiness": "REFERENCE_READY",
+      "authority": "Queensland Government / Fisheries Queensland",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER",
+        "STOCKED_IMPOUNDMENT"
+      ],
+      "licence_model": "STOCKED_IMPOUNDMENT_PERMIT_REQUIRED_FOR_APPLICABLE_SIPS_FISHING; VERIFY_CURRENT_SCOPE",
+      "official_sources": [
+        {
+          "source_id": "AU-QLD-RULES",
+          "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/rules",
+          "purpose": [
+            "RULES",
+            "CLOSURES",
+            "LIMITS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-QLD-APP",
+          "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/app",
+          "purpose": [
+            "CURRENT_RULE_GUIDANCE",
+            "FACILITIES",
+            "FADS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-QLD-SIPS",
+          "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/dams/stocked-impoundment-permits/buy",
+          "purpose": [
+            "PERMIT"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-SA",
+      "name": "South Australia",
+      "readiness": "REFERENCE_READY",
+      "authority": "PIRSA",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER",
+        "RESERVOIR"
+      ],
+      "licence_model": "NO_GENERAL_RECREATIONAL_FISHING_LICENCE; RESERVOIR_PERMITS_REQUIRED_WHERE_APPLICABLE",
+      "official_sources": [
+        {
+          "source_id": "AU-SA-RULES",
+          "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules",
+          "purpose": [
+            "RULES",
+            "CLOSURES",
+            "LIMITS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-SA-APP",
+          "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/sa-fishing-app",
+          "purpose": [
+            "CURRENT_RULE_GUIDANCE",
+            "CLOSURE_MAP",
+            "CATCH_REPORTING"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-SA-RESERVOIR",
+          "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules/reservoir-fishing",
+          "purpose": [
+            "RESERVOIR_PERMIT",
+            "ACCESS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-TAS-MARINE",
+      "name": "Tasmania marine",
+      "readiness": "REFERENCE_READY",
+      "authority": "NRE Tasmania Sea Fisheries",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY"
+      ],
+      "licence_model": "ROD_AND_LINE_MARINE_NO_GENERAL_LICENCE; SPECIFIED_GEAR_OR_SPECIES_ACTIVITIES_REQUIRE_LICENCE",
+      "official_sources": [
+        {
+          "source_id": "AU-TAS-MARINE-RULES",
+          "url": "https://fishing.tas.gov.au/recreational-fishing/rules",
+          "purpose": [
+            "RULES",
+            "SEASONS",
+            "LIMITS",
+            "GEAR",
+            "AREA_RESTRICTIONS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-TAS-FISHING-APP",
+          "url": "https://fishing.tas.gov.au/recreational-fishing/fishing-guides/fishing-tas-app",
+          "purpose": [
+            "CURRENT_RULE_GUIDANCE",
+            "OFFLINE_REFERENCE_MAPS",
+            "RAMPS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-TAS-INLAND",
+      "name": "Tasmania inland",
+      "readiness": "REFERENCE_READY",
+      "authority": "Inland Fisheries Service Tasmania",
+      "water_regimes": [
+        "INLAND_FRESHWATER"
+      ],
+      "licence_model": "INLAND_ANGLING_LICENCE_REQUIRED_SUBJECT_TO_CURRENT_RULES",
+      "official_sources": [
+        {
+          "source_id": "AU-TAS-INLAND-CODE",
+          "url": "https://www.ifs.tas.gov.au/tasmanian-inland-fishing-code",
+          "purpose": [
+            "RULES",
+            "SEASONS",
+            "LIMITS",
+            "METHODS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-TAS-SEAWARD-LIMITS",
+          "url": "https://fishing.tas.gov.au/recreational-fishing/rules/area-restrictions/seaward-limits-and-inland-waters",
+          "purpose": [
+            "JURISDICTION_BOUNDARY"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-VIC",
+      "name": "Victoria",
+      "readiness": "REFERENCE_READY",
+      "authority": "Victorian Fisheries Authority",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER"
+      ],
+      "licence_model": "RECREATIONAL_FISHING_LICENCE_REQUIRED_UNLESS_EXEMPT",
+      "official_sources": [
+        {
+          "source_id": "AU-VIC-GUIDE",
+          "url": "https://vfa.vic.gov.au/recreational-fishing/recreational-fishing-guide",
+          "purpose": [
+            "RULES",
+            "LIMITS",
+            "RESTRICTIONS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-VIC-LICENCE",
+          "url": "https://vfa.vic.gov.au/recreational-fishing/fishing-licence",
+          "purpose": [
+            "LICENCE",
+            "EXEMPTIONS"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    },
+    {
+      "jurisdiction_id": "AU-WA",
+      "name": "Western Australia",
+      "readiness": "REFERENCE_READY",
+      "authority": "WA DPIRD",
+      "water_regimes": [
+        "MARINE",
+        "TIDAL_ESTUARY",
+        "INLAND_FRESHWATER"
+      ],
+      "licence_model": "ACTIVITY_AND_MODE_SPECIFIC_LICENCES; POWERED_BOAT_AND_SOUTHWEST_FRESHWATER_REQUIREMENTS_MAY_APPLY",
+      "official_sources": [
+        {
+          "source_id": "AU-WA-RULES",
+          "url": "https://rules.fish.wa.gov.au/",
+          "purpose": [
+            "RULES_BY_SPECIES_AND_LOCATION",
+            "BIOREGION_RULES"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        },
+        {
+          "source_id": "AU-WA-GUIDE",
+          "url": "https://www.dpird.wa.gov.au/individuals/recreational-fishing/recreational-fishing-rules/",
+          "purpose": [
+            "RULES",
+            "BIOREGIONS",
+            "LICENCE_GUIDANCE"
+          ],
+          "use_mode": "LINK_REFERENCE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input": {
+    "jurisdiction": "AU-QLD",
+    "water_regime": "TIDAL_ESTUARY",
+    "mode": "KAYAK"
+  },
+  "expected": {
+    "requires_boat_ramp": false,
+    "uses_common_kernel": true
+  }
+}

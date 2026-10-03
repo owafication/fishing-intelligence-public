@@ -1,0 +1,44 @@
+{
+  "synthetic": true,
+  "mode": "shore",
+  "species_identity_material": true,
+  "domains": {
+    "FISHERIES_RULES": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "LICENSING_PERMITS": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "AREA_CLOSURES_PROTECTED": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "ACCESS": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "WEATHER_WARNINGS": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "SPECIES_TAXONOMY": {
+      "verification": "UNAVAILABLE"
+    }
+  },
+  "expected": {
+    "pack_class": "GENERATED_PROVISIONAL",
+    "required_domains": [
+      "ACCESS",
+      "AREA_CLOSURES_PROTECTED",
+      "FISHERIES_RULES",
+      "LICENSING_PERMITS",
+      "SPECIES_TAXONOMY",
+      "WEATHER_WARNINGS"
+    ],
+    "missing": [
+      "SPECIES_TAXONOMY"
+    ],
+    "conflicting": [],
+    "stale": [],
+    "readiness": "INSUFFICIENT",
+    "self_promotes": false,
+    "reuse_requires_freshness_recheck": true
+  }
+}

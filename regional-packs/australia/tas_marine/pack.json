@@ -1,0 +1,35 @@
+{
+  "jurisdiction_id": "AU-TAS-MARINE",
+  "name": "Tasmania marine",
+  "readiness": "REFERENCE_READY",
+  "authority": "NRE Tasmania Sea Fisheries",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY"
+  ],
+  "licence_model": "ROD_AND_LINE_MARINE_NO_GENERAL_LICENCE; SPECIFIED_GEAR_OR_SPECIES_ACTIVITIES_REQUIRE_LICENCE",
+  "official_sources": [
+    {
+      "source_id": "AU-TAS-MARINE-RULES",
+      "url": "https://fishing.tas.gov.au/recreational-fishing/rules",
+      "purpose": [
+        "RULES",
+        "SEASONS",
+        "LIMITS",
+        "GEAR",
+        "AREA_RESTRICTIONS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-TAS-FISHING-APP",
+      "url": "https://fishing.tas.gov.au/recreational-fishing/fishing-guides/fishing-tas-app",
+      "purpose": [
+        "CURRENT_RULE_GUIDANCE",
+        "OFFLINE_REFERENCE_MAPS",
+        "RAMPS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

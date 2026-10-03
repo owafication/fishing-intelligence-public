@@ -1,0 +1,11 @@
+{
+  "id": "prospect-overlaps-protection-area",
+  "input": {
+    "prospect_origin": "GENERATED_PROSPECT",
+    "legal_overlay": "VERIFIED_CURRENT_CLOSED"
+  },
+  "expected": {
+    "planning_admission": "REJECTED",
+    "reason": "LEGAL_SPATIAL_EXCLUSION"
+  }
+}

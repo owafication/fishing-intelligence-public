@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "request": "generate secret spot"
+  },
+  "expected": {
+    "generated_prospect_claim": "NOT_YET_SUPPORTED",
+    "regional_readiness": "PLANNING_READY"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "synthetic": true,
+  "observations": [
+    {
+      "id": "closure_overlay",
+      "domain": "AREA_CLOSURES_PROTECTED",
+      "applicability": "NOT_APPLICABLE",
+      "applicability_basis_verified": false,
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "closure_overlay",
+        "constrains_plan": true,
+        "readiness_effect": "BLOCK"
+      }
+    ]
+  }
+}

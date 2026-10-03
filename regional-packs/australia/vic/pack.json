@@ -1,0 +1,33 @@
+{
+  "jurisdiction_id": "AU-VIC",
+  "name": "Victoria",
+  "readiness": "REFERENCE_READY",
+  "authority": "Victorian Fisheries Authority",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER"
+  ],
+  "licence_model": "RECREATIONAL_FISHING_LICENCE_REQUIRED_UNLESS_EXEMPT",
+  "official_sources": [
+    {
+      "source_id": "AU-VIC-GUIDE",
+      "url": "https://vfa.vic.gov.au/recreational-fishing/recreational-fishing-guide",
+      "purpose": [
+        "RULES",
+        "LIMITS",
+        "RESTRICTIONS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-VIC-LICENCE",
+      "url": "https://vfa.vic.gov.au/recreational-fishing/fishing-licence",
+      "purpose": [
+        "LICENCE",
+        "EXEMPTIONS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

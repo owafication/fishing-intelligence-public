@@ -1,0 +1,33 @@
+{
+  "observations": [
+    {
+      "id": "marine_forecast",
+      "domain": "WEATHER_WARNINGS",
+      "applicability": "NOT_APPLICABLE",
+      "verification": "UNAVAILABLE",
+      "material": true
+    },
+    {
+      "id": "inland_forecast",
+      "domain": "WEATHER_WARNINGS",
+      "applicability": "REQUIRED",
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "marine_forecast",
+        "constrains_plan": false,
+        "readiness_effect": "NONE"
+      },
+      {
+        "id": "inland_forecast",
+        "constrains_plan": true,
+        "readiness_effect": "NONE"
+      }
+    ]
+  },
+  "synthetic": true
+}

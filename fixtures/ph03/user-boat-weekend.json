@@ -1,0 +1,43 @@
+{
+  "id": "synthetic-darwin-weekend-trailerboat-unspecified-target",
+  "synthetic": true,
+  "date_context": "example only",
+  "input": {
+    "request": "go fishing this weekend",
+    "origin": "Darwin metropolitan area",
+    "origin_precision": "REGION",
+    "mode": "TRAILER_BOAT",
+    "vessel": {
+      "length_m": 5.2,
+      "construction": "aluminium",
+      "draft_description": "shallow",
+      "engine_hp": 90
+    },
+    "target_intent": "UNSPECIFIED",
+    "unknowns": [
+      "usable_fuel",
+      "fuel_economy",
+      "crew",
+      "communications",
+      "navigation_equipment",
+      "safety_equipment",
+      "offshore_experience",
+      "user_wind_limit",
+      "user_swell_limit"
+    ]
+  },
+  "expected": {
+    "no_exact_departure_time_from_origin": true,
+    "no_range_inference_from_engine": true,
+    "target_behavior": "COMPARE_FAMILIES",
+    "pelagic_offshore": "WITHHOLD_IF_RANGE_OR_CRITICAL_CAPABILITY_REQUIRED",
+    "tide_access": "PROVISIONAL_OR_BLOCKED_IF_AUTHORITATIVE_EXACT_TIDE_UNRESOLVED",
+    "plan_readiness": "NOT_READY_TO_USE_UNLESS_ALL_CRITICAL_DEPENDENCIES_VERIFY",
+    "prohibit_safe_safer_labels": true,
+    "option_families": [
+      "ESTUARY_CREEK",
+      "REEF_DEMERSAL",
+      "PELAGIC_OFFSHORE"
+    ]
+  }
+}

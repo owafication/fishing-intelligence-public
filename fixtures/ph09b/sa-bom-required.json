@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "mode": "TRAILER_BOAT",
+    "forecast_status": "UNAVAILABLE"
+  },
+  "expected": {
+    "readiness": "BLOCKED_FOR_READY_TO_USE_MARINE_PLAN"
+  }
+}

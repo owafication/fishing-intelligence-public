@@ -1,0 +1,11 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "access": "AU-SA-RAMP-WEST-BEACH",
+    "date": "2026-10-03"
+  },
+  "expected": {
+    "access": "VERIFY_LIVE",
+    "readiness_max": "PROVISIONAL_UNTIL_WORKS_IMPACT_CHECKED"
+  }
+}

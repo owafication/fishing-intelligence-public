@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-NSW",
+    "water_regime": "MARINE",
+    "mode": "SHORE"
+  },
+  "expected": {
+    "pack": "AU-NSW",
+    "licence_check": "REQUIRED_WITH_EXEMPTION_CHECK",
+    "readiness": "REFERENCE_READY"
+  }
+}

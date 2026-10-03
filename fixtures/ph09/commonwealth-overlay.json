@@ -1,0 +1,15 @@
+{
+  "input": {
+    "jurisdiction": "AU-NSW",
+    "water_regime": "COMMONWEALTH_MARINE_PARK",
+    "mode": "OFFSHORE",
+    "commonwealth_overlay": true
+  },
+  "expected": {
+    "packs": [
+      "AU-NSW",
+      "AU-CTH-MARINE"
+    ],
+    "combine_constraints": true
+  }
+}

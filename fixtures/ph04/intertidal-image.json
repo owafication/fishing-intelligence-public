@@ -1,0 +1,14 @@
+{
+  "id": "low-tide-image-drain",
+  "input": {
+    "source_id": "AU-NT-GOV-LOW-TIDE-AERIAL-2024",
+    "visible_feature": "drainage_channel",
+    "source_resolution_m": null
+  },
+  "expected": {
+    "structure_observation": "SUPPORTED_IF_VISUALLY_OBSERVED",
+    "fishing_relevance": "HYPOTHESIS",
+    "navigation_suitable": false,
+    "precision": "IMAGE_BOUNDED_APPROXIMATE_AREA"
+  }
+}

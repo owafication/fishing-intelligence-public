@@ -1,0 +1,11 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "water": "MARINE",
+    "mode": "SHORE"
+  },
+  "expected": {
+    "general_recreational_licence": "NOT_REQUIRED",
+    "special_permits": "VERIFY_IF_APPLICABLE"
+  }
+}

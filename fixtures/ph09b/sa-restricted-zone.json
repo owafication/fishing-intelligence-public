@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "marine_park_zone": "RESTRICTED_ACCESS"
+  },
+  "expected": {
+    "admission": "REJECTED",
+    "reason": "ENTRY_RESTRICTED"
+  }
+}

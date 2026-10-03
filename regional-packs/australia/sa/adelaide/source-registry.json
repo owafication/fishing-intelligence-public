@@ -1,0 +1,167 @@
+{
+  "region_id": "AU-SA-ADELAIDE-GSV",
+  "sources": [
+    {
+      "source_id": "AU-SA-PIRSA-RULES",
+      "provider": "PIRSA",
+      "purpose": [
+        "RULES",
+        "LICENCE_MODEL",
+        "LIMITS"
+      ],
+      "source_url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 21600,
+      "failure_policy": "BLOCK_CURRENT_LEGAL_GUIDANCE"
+    },
+    {
+      "source_id": "AU-SA-PIRSA-CLOSURES",
+      "provider": "PIRSA",
+      "purpose": [
+        "TEMPORARY_CLOSURES",
+        "SEASONAL_CLOSURES",
+        "AREA_CLOSURES"
+      ],
+      "source_url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules/fishing-closures",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 3600,
+      "failure_policy": "BLOCK_TARGET_OR_AREA_DEPENDENT_ADMISSION"
+    },
+    {
+      "source_id": "AU-SA-PIRSA-LIMITS",
+      "provider": "PIRSA",
+      "purpose": [
+        "SPECIES_LIMITS",
+        "ZONE_LIMITS"
+      ],
+      "source_url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules/fishing-limits-quick-lookup",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 21600,
+      "failure_policy": "WITHHOLD_KEEPER_GUIDANCE"
+    },
+    {
+      "source_id": "AU-SA-MARINE-PARKS",
+      "provider": "SA Department for Environment and Water",
+      "purpose": [
+        "MARINE_PARK_ZONES",
+        "SANCTUARY_ZONE_EXCLUSION",
+        "RESTRICTED_ACCESS_ZONE"
+      ],
+      "source_url": "https://www.marineparks.sa.gov.au/maps-and-coordinates",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 86400,
+      "failure_policy": "BLOCK_ZONE_DEPENDENT_ADMISSION"
+    },
+    {
+      "source_id": "AU-SA-MARINE-PARK-RULES",
+      "provider": "SA Department for Environment and Water",
+      "purpose": [
+        "ZONE_ACTIVITY_RULES"
+      ],
+      "source_url": "https://www.marineparks.sa.gov.au/enjoy/fishing/fishing-restrictions",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 86400,
+      "failure_policy": "BLOCK_ZONE_DEPENDENT_ADMISSION"
+    },
+    {
+      "source_id": "AU-BOM-GULF-ST-VINCENT",
+      "provider": "Australian Bureau of Meteorology",
+      "purpose": [
+        "WEATHER",
+        "WARNINGS"
+      ],
+      "source_url": "https://www.bom.gov.au/sa/forecasts/",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 1800,
+      "failure_policy": "BLOCK_READY_TO_USE_MARINE_CONDITIONS_CLAIM"
+    },
+    {
+      "source_id": "AU-SA-MARINESAFETY-WEBCAMS",
+      "provider": "SA Department for Infrastructure and Transport",
+      "purpose": [
+        "RAMP_EXISTENCE",
+        "CURRENT_VISUAL_REFERENCE"
+      ],
+      "source_url": "https://marinesafety.sa.gov.au/web-cameras",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 900,
+      "failure_policy": "DEGRADE_VISUAL_REFERENCE_ONLY",
+      "limitations": [
+        "webcam does not prove ramp operational status"
+      ]
+    },
+    {
+      "source_id": "AU-SA-DIT-OSULLIVAN-RAMP",
+      "provider": "SA Department for Infrastructure and Transport",
+      "purpose": [
+        "RAMP_FACILITY"
+      ],
+      "source_url": "https://dit.sa.gov.au/infrastructure/projects/osullivan-beach-boat-ramp",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 604800,
+      "failure_policy": "DEGRADE_ACCESS_DETAIL"
+    },
+    {
+      "source_id": "AU-SA-ONKAPARINGA-RAMP",
+      "provider": "City of Onkaparinga",
+      "purpose": [
+        "RAMP_FEE_OR_PERMIT",
+        "LOCAL_ACCESS_NOTICE"
+      ],
+      "source_url": "https://www.onkaparingacity.com/Services/Permits/Boat-ramp-launch-permit",
+      "authority_class": "OFFICIAL_LOCAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 21600,
+      "failure_policy": "DEGRADE_ACCESS_DETAIL"
+    },
+    {
+      "source_id": "AU-SA-WEST-BEACH-WORKS",
+      "provider": "City of West Torrens / DIT notice",
+      "purpose": [
+        "CURRENT_ACCESS_WORKS"
+      ],
+      "source_url": "https://www.westtorrens.sa.gov.au/Community/Major-projects/Public-notifications-of-works",
+      "authority_class": "OFFICIAL_LOCAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 21600,
+      "failure_policy": "VERIFY_ACCESS_BEFORE_USE"
+    },
+    {
+      "source_id": "AU-SA-NOTICES-MARINERS",
+      "provider": "Marine Safety SA",
+      "purpose": [
+        "NOTICE_TO_MARINERS_REFERENCE"
+      ],
+      "source_url": "https://marinesafety.sa.gov.au/news/feed",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 3600,
+      "failure_policy": "DEGRADE_NAVIGATION_NOTICE_AWARENESS",
+      "limitations": [
+        "Fishing Intelligence is not a navigation system"
+      ]
+    },
+    {
+      "source_id": "AU-AHO-PORT-ADELAIDE",
+      "provider": "Australian Hydrographic Office",
+      "purpose": [
+        "TIDE_REFERENCE",
+        "TIDAL_DATUM"
+      ],
+      "source_url": "https://www.hydro.gov.au/resources/publications/australian-national-tide-tables-ahp11",
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "freshness_seconds": 2592000,
+      "failure_policy": "BLOCK_TIDE_DEPENDENT_CALCULATION",
+      "dataset": "Australian National Tide Tables source link"
+    }
+  ]
+}

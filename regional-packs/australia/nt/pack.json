@@ -1,0 +1,20 @@
+{
+  "jurisdiction_id": "AU-NT",
+  "name": "Northern Territory",
+  "readiness": "PROSPECT_READY_FOR_AU-NT-DARWIN",
+  "authority": "Northern Territory Government / NT Legislation",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER"
+  ],
+  "official_sources": [
+    {
+      "source_id": "AU-NT-EXISTING-PACK",
+      "purpose": [
+        "DELEGATE_TO_EXISTING_DARWIN_NT_PACK"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema_version": "fishing-intelligence-public-manifest/v1",
+  "plugin_id": "fishing-intelligence",
+  "version": "0.15.2",
+  "plugin_version": "0.15.2",
+  "product_type": "STANDALONE_SKILLS_PLUGIN",
+  "runtime_mode": "PORTABLE_ONLY",
+  "dedicated_service_required": false,
+  "persistent_storage_required": false,
+  "core_job": "Plan, record, adapt and learn from fishing activity globally while resolving current applicable authorities and preserving uncertainty.",
+  "regional_readiness": {
+    "GLOBAL_DEFAULT": "GENERATE_ON_DEMAND",
+    "AU-NT-DARWIN": "PROSPECT_READY",
+    "AU-SA-ADELAIDE-GSV": "PLANNING_READY",
+    "OTHER_SHIPPED_AUSTRALIAN_JURISDICTIONS": "REFERENCE_READY"
+  },
+  "capabilities": {
+    "trip_planning": "SUPPORTED",
+    "opportunity_comparison": "SUPPORTED",
+    "prospect_intelligence": "SUPPORTED_WHERE_REGION_PROSPECT_READY",
+    "field_capture": "SUPPORTED_IN_SESSION",
+    "effort_and_cplh_metrics": "SUPPORTED_WHEN_DENOMINATOR_AVAILABLE",
+    "private_mark_intelligence": "SUPPORTED",
+    "personal_learning": "SUPPORTED",
+    "active_trip_replanning": "SUPPORTED",
+    "active_compliance_state": "SUPPORTED_WITH_CURRENT_INPUTS",
+    "current_rule_verification": "HOST_REFERENCE_ACCESS_DEPENDENT",
+    "image_assisted_species_identification": "OPTIONAL_HOST_INPUT",
+    "file_import_export": "OPTIONAL_HOST_FILE_IO",
+    "direct_chartplotter_sync": "NOT_IMPLEMENTED",
+    "bookings_payments_crm": "OUT_OF_SCOPE",
+    "certified_navigation": "OUT_OF_SCOPE",
+    "global_jurisdiction_resolution": "SUPPORTED_WITH_CURRENT_REFERENCE_ACCESS",
+    "regional_pack_resolution": "SUPPORTED",
+    "regional_pack_generation": "SUPPORTED_WITH_CURRENT_REFERENCE_ACCESS",
+    "navigation_notice_resolution": "SUPPORTED_WHEN_APPLICABLE",
+    "boating_safety_requirement_resolution": "SUPPORTED_WHEN_APPLICABLE",
+    "species_taxonomy_resolution": "SUPPORTED_WHEN_RULE_IDENTITY_MATERIAL",
+    "unit_timezone_datum_normalization": "SUPPORTED",
+    "authority_applicability_resolution": "SUPPORTED",
+    "spatial_overlay_intersection": "SUPPORTED_WHEN_SOURCE_SCOPE_CAN_BE_RESOLVED",
+    "travel_logistics_comparison": "SUPPORTED_WHEN_MATERIAL",
+    "explicit_verification_schema": "SUPPORTED"
+  },
+  "privacy": {
+    "location_default": "PRIVATE",
+    "levels": [
+      "PRIVATE",
+      "NAMED_PEOPLE",
+      "TRUSTED_GROUP",
+      "APPROXIMATE",
+      "PUBLIC"
+    ],
+    "generated_prospect_navigation_suitable_default": false
+  },
+  "authority_boundaries": [
+    "Fishing Intelligence is decision support, not legal advice, safety certification or certified navigation.",
+    "Current legal, access, weather, tide, warning and keeper guidance must be checked against current external sources.",
+    "Generated prospects are fishing search areas and default to navigation_suitable=false.",
+    "Personal patterns are user-specific evidence, not universal biological or causal claims.",
+    "Global support depends on sufficient current authoritative references being accessible for the requested place and decision."
+  ],
+  "evidence_classes": [
+    "AUTHORITATIVE",
+    "OBSERVED",
+    "SUPPORTED",
+    "HYPOTHESIS"
+  ],
+  "verification_states": [
+    "VERIFIED_CURRENT",
+    "VERIFIED_AS_OF",
+    "STALE",
+    "CONFLICTING",
+    "UNAVAILABLE",
+    "NOT_REQUIRED"
+  ],
+  "regional_pack_model": {
+    "pack_classes": [
+      "CURATED",
+      "GENERATED_PROVISIONAL"
+    ],
+    "readiness_states": [
+      "REFERENCE_READY",
+      "PLANNING_READY",
+      "PROSPECT_READY",
+      "INSUFFICIENT"
+    ],
+    "critical_authority_domains": [
+      "FISHERIES_RULES",
+      "LICENSING_PERMITS",
+      "AREA_CLOSURES_PROTECTED",
+      "ACCESS"
+    ],
+    "conditional_authority_domains": [
+      "BOATING_SAFETY",
+      "NAVIGATION_NOTICES",
+      "WEATHER_WARNINGS",
+      "TIDE_WATER_LEVEL",
+      "SPECIES_TAXONOMY",
+      "BIOSECURITY_HEALTH_ADVISORY"
+    ],
+    "applicability_states": [
+      "REQUIRED",
+      "CONDITIONAL",
+      "NOT_APPLICABLE",
+      "UNRESOLVED"
+    ],
+    "spatial_relations": [
+      "INTERSECTS",
+      "DOES_NOT_INTERSECT",
+      "UNRESOLVED",
+      "NOT_SPATIAL"
+    ]
+  },
+  "license": "Apache-2.0"
+}

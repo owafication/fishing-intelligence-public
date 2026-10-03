@@ -1,0 +1,33 @@
+{
+  "jurisdiction_id": "AU-WA",
+  "name": "Western Australia",
+  "readiness": "REFERENCE_READY",
+  "authority": "WA DPIRD",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER"
+  ],
+  "licence_model": "ACTIVITY_AND_MODE_SPECIFIC_LICENCES; POWERED_BOAT_AND_SOUTHWEST_FRESHWATER_REQUIREMENTS_MAY_APPLY",
+  "official_sources": [
+    {
+      "source_id": "AU-WA-RULES",
+      "url": "https://rules.fish.wa.gov.au/",
+      "purpose": [
+        "RULES_BY_SPECIES_AND_LOCATION",
+        "BIOREGION_RULES"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-WA-GUIDE",
+      "url": "https://www.dpird.wa.gov.au/individuals/recreational-fishing/recreational-fishing-rules/",
+      "purpose": [
+        "RULES",
+        "BIOREGIONS",
+        "LICENCE_GUIDANCE"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

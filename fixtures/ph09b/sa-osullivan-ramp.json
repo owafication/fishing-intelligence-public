@@ -1,0 +1,12 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "access": "AU-SA-RAMP-OSULLIVAN",
+    "date": "2026-10-03"
+  },
+  "expected": {
+    "access_candidate": "SUPPORTED",
+    "fee_state": "VERIFY_CURRENT_LOCAL_RULE",
+    "temporary_policy_not_persisted_as_current": true
+  }
+}

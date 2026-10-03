@@ -1,0 +1,13 @@
+{
+  "input": {
+    "jurisdiction": "AU-TAS-MARINE",
+    "water_regime": "MARINE",
+    "mode": "SHORE",
+    "method": "ROD_LINE"
+  },
+  "expected": {
+    "pack": "AU-TAS-MARINE",
+    "licence_model": "ROD_AND_LINE_MARINE_NO_GENERAL_LICENCE; SPECIFIED_GEAR_OR_SPECIES_ACTIVITIES_REQUIRE_LICENCE",
+    "readiness": "REFERENCE_READY"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "region_id": "AU-NT-DARWIN",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "source_id": "AU-NT-LEG-FISHERIES-REGULATIONS",
+      "provider": "Northern Territory Legislation / Office of the Parliamentary Counsel",
+      "dataset": "Fisheries Regulations 1992 (current in-force reprint)",
+      "authority_class": "OFFICIAL",
+      "jurisdiction": "Northern Territory, Australia",
+      "purpose": [
+        "REGULATIONS"
+      ],
+      "freshness_policy": {
+        "preferred_max_age_seconds": 86400,
+        "hard_expiry_seconds": 604800,
+        "expiry_behavior": "REVERIFY"
+      },
+      "failure_policy": "BLOCK_DEPENDENT_DECISION",
+      "source_url": "https://legislation.nt.gov.au/Legislation/FISHERIES-REGULATIONS-1992",
+      "status": "ACTIVE_REFERENCE",
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-NT-GOV-FISHING-GUIDANCE",
+      "provider": "Northern Territory Government",
+      "dataset": "Recreational fishing guidance, possession/size limits and area-specific rules",
+      "authority_class": "OFFICIAL",
+      "jurisdiction": "Northern Territory, Australia",
+      "purpose": [
+        "REGULATION_GUIDANCE",
+        "SPECIES_RULE_SUMMARY",
+        "AREA_GUIDANCE"
+      ],
+      "use_mode": "LINK_REFERENCE",
+      "freshness_policy": {
+        "preferred_max_age_seconds": 21600,
+        "hard_expiry_seconds": 86400,
+        "expiry_behavior": "REVERIFY"
+      },
+      "failure_policy": "DEGRADE_TO_LEGISLATION_WHERE_APPLICABLE",
+      "source_urls": [
+        "https://nt.gov.au/marine/recreational-fishing/possession-and-size-limits/rules-for-keeping-your-catch",
+        "https://nt.gov.au/marine/recreational-fishing/when-and-where-to-fish/rules-for-fishing-in-specific-areas"
+      ],
+      "status": "ACTIVE_REFERENCE"
+    },
+    {
+      "source_id": "AU-NT-GOV-BOAT-RAMPS",
+      "provider": "Northern Territory Government",
+      "dataset": "Public boat ramp locations, tidal access and current status/warnings",
+      "authority_class": "OFFICIAL",
+      "jurisdiction": "Northern Territory, Australia",
+      "purpose": [
+        "ACCESS",
+        "RAMP_STATUS",
+        "TIDAL_ACCESS_THRESHOLD"
+      ],
+      "use_mode": "LINK_REFERENCE",
+      "freshness_policy": {
+        "preferred_max_age_seconds": 3600,
+        "hard_expiry_seconds": 21600,
+        "expiry_behavior": "REVERIFY"
+      },
+      "failure_policy": "BLOCK_VERIFIED_ACCESS_CLAIM",
+      "source_url": "https://nt.gov.au/marine/for-all-harbour-and-boat-users/ramps-wharves-and-moorings/find-a-boat-ramp",
+      "status": "ACTIVE_REFERENCE"
+    },
+    {
+      "source_id": "AU-BOM-PUBLIC-MARINE-WEATHER",
+      "provider": "Australian Bureau of Meteorology",
+      "dataset": "Northern Territory forecast and warning source links",
+      "authority_class": "OFFICIAL",
+      "jurisdiction": "Australia",
+      "purpose": [
+        "WEATHER",
+        "WARNINGS"
+      ],
+      "use_mode": "LINK_REFERENCE",
+      "freshness_policy": {
+        "preferred_max_age_seconds": 1800,
+        "hard_expiry_seconds": 7200,
+        "expiry_behavior": "REVERIFY"
+      },
+      "failure_policy": "BLOCK_READY_TO_USE_CONDITIONS_CLAIM",
+      "status": "ACTIVE_REFERENCE",
+      "source_url": "https://www.bom.gov.au/nt/forecasts/"
+    },
+    {
+      "source_id": "AU-AHO-ANTT",
+      "provider": "Australian Hydrographic Office",
+      "dataset": "Australian National Tide Tables source link",
+      "authority_class": "OFFICIAL",
+      "jurisdiction": "Australia",
+      "purpose": [
+        "TIDE_REFERENCE",
+        "TIDAL_DATUM"
+      ],
+      "use_mode": "LINK_REFERENCE",
+      "freshness_policy": {
+        "preferred_max_age_seconds": 2592000,
+        "hard_expiry_seconds": 31536000,
+        "expiry_behavior": "REVERIFY"
+      },
+      "failure_policy": "BLOCK_TIDE_DEPENDENT_ACCESS_CALCULATION",
+      "source_url": "https://www.hydro.gov.au/resources/publications/australian-national-tide-tables-ahp11",
+      "status": "ACTIVE_REFERENCE"
+    },
+    {
+      "source_id": "AU-AUSSEABED-MARINE-DATA",
+      "provider": "AusSeabed / Geoscience Australia and contributing custodians",
+      "dataset": "AusSeabed Marine Data Portal bathymetry and geomorphology datasets",
+      "authority_class": "SCIENTIFIC",
+      "jurisdiction": "Australia",
+      "purpose": [
+        "BATHYMETRY",
+        "SEABED_STRUCTURE",
+        "PROSPECT_GENERATION"
+      ],
+      "use_mode": "LINK_REFERENCE",
+      "freshness_policy": {
+        "preferred_max_age_seconds": 2592000,
+        "hard_expiry_seconds": 31536000,
+        "expiry_behavior": "WARN"
+      },
+      "failure_policy": "DEGRADE_PROSPECT_GENERATION",
+      "source_url": "https://www.ausseabed.gov.au/data",
+      "status": "ACTIVE_REFERENCE"
+    }
+  ]
+}

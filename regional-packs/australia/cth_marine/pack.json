@@ -1,0 +1,30 @@
+{
+  "jurisdiction_id": "AU-CTH-MARINE",
+  "name": "Australian Marine Parks overlay",
+  "readiness": "REFERENCE_READY",
+  "authority": "Parks Australia / DCCEEW",
+  "water_regimes": [
+    "COMMONWEALTH_MARINE_PARK"
+  ],
+  "official_sources": [
+    {
+      "source_id": "AU-CTH-MARINE-PARKS",
+      "url": "https://parksaustralia.gov.au/marine-parks/",
+      "purpose": [
+        "PROTECTED_AREA_OVERLAY"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-CTH-MARINE-SPATIAL",
+      "url": "https://www.dcceew.gov.au/environment/marine/marine-bioregional-plans/marine-spatial-information",
+      "purpose": [
+        "SPATIAL_OVERLAY_DISCOVERY"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ],
+  "notes": [
+    "Commonwealth overlay may coexist with state/territory fishing rules."
+  ]
+}

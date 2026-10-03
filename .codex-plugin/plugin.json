@@ -1,0 +1,41 @@
+{
+  "interface": {
+    "displayName": "Fishing Intelligence",
+    "shortDescription": "Open-source fishing decision intelligence",
+    "longDescription": "Portable open-source fishing decision intelligence for global trip planning, current-authority checks, field capture, personal learning and adaptive replanning. No dedicated server or persistent store is required.",
+    "developerName": "Oliver Bruekers",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Plan my next fishing trip from my target, fishing mode, available window and constraints.",
+      "Record this fishing session, including catches, blanks and effort, then help me learn from it.",
+      "Replan the rest of my active trip from the current conditions and what has happened so far."
+    ]
+  },
+  "name": "fishing-intelligence",
+  "version": "0.15.2",
+  "description": "Open-source portable fishing decision intelligence with global authority resolution, trip planning, field capture, personal learning and adaptive replanning.",
+  "author": {
+    "name": "Oliver Bruekers"
+  },
+  "keywords": [
+    "fishing",
+    "planning",
+    "logbook",
+    "replanning",
+    "fishing analytics",
+    "global fishing",
+    "fishing regulations",
+    "regional planning"
+  ],
+  "skills": "./skills",
+  "extensions": {
+    "com.openai": {
+      "publication": {
+        "release_notes": "Initial public open-source portable release."
+      }
+    }
+  }
+}

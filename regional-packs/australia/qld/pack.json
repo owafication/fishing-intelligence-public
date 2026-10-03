@@ -1,0 +1,43 @@
+{
+  "jurisdiction_id": "AU-QLD",
+  "name": "Queensland",
+  "readiness": "REFERENCE_READY",
+  "authority": "Queensland Government / Fisheries Queensland",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER",
+    "STOCKED_IMPOUNDMENT"
+  ],
+  "licence_model": "STOCKED_IMPOUNDMENT_PERMIT_REQUIRED_FOR_APPLICABLE_SIPS_FISHING; VERIFY_CURRENT_SCOPE",
+  "official_sources": [
+    {
+      "source_id": "AU-QLD-RULES",
+      "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/rules",
+      "purpose": [
+        "RULES",
+        "CLOSURES",
+        "LIMITS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-QLD-APP",
+      "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/app",
+      "purpose": [
+        "CURRENT_RULE_GUIDANCE",
+        "FACILITIES",
+        "FADS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-QLD-SIPS",
+      "url": "https://www.qld.gov.au/recreation/activities/boating-fishing/rec-fishing/dams/stocked-impoundment-permits/buy",
+      "purpose": [
+        "PERMIT"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

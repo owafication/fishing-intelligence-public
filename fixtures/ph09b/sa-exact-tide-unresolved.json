@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "requires_exact_tide": true,
+    "authoritative_tide": "UNAVAILABLE"
+  },
+  "expected": {
+    "dependent_calculation": "WITHHELD"
+  }
+}

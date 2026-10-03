@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-ACT",
+    "water_regime": "INLAND_FRESHWATER",
+    "mode": "SHORE"
+  },
+  "expected": {
+    "pack": "AU-ACT",
+    "licence_model": "NO_GENERAL_RECREATIONAL_LICENCE_FOR_PUBLIC_ACT_WATERS; VERIFY_CURRENT_RULES",
+    "readiness": "REFERENCE_READY"
+  }
+}

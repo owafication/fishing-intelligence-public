@@ -1,0 +1,35 @@
+{
+  "jurisdiction_id": "AU-NSW",
+  "name": "New South Wales",
+  "readiness": "REFERENCE_READY",
+  "authority": "NSW DPIRD / Service NSW",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER"
+  ],
+  "licence_model": "GENERAL_RECREATIONAL_FISHING_FEE_WITH_EXEMPTIONS; VERIFY_USER_ELIGIBILITY",
+  "mode_overlays": [
+    "ROCK_FISHING_DECLARED_AREA_LIFEJACKET_REQUIREMENTS_MAY_APPLY"
+  ],
+  "official_sources": [
+    {
+      "source_id": "AU-NSW-FISHSMART",
+      "url": "https://www.dpird.nsw.gov.au/fishing/recreational/resources/fishsmart-app",
+      "purpose": [
+        "CURRENT_RULE_GUIDANCE",
+        "CLOSURES",
+        "SPATIAL_REFERENCE"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-NSW-FISHING-FEE",
+      "url": "https://www.dpird.nsw.gov.au/fishing/recreational/recreational-fishing-fee",
+      "purpose": [
+        "LICENCE_FEE"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

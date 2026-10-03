@@ -1,0 +1,31 @@
+{
+  "jurisdiction_id": "AU-TAS-INLAND",
+  "name": "Tasmania inland",
+  "readiness": "REFERENCE_READY",
+  "authority": "Inland Fisheries Service Tasmania",
+  "water_regimes": [
+    "INLAND_FRESHWATER"
+  ],
+  "licence_model": "INLAND_ANGLING_LICENCE_REQUIRED_SUBJECT_TO_CURRENT_RULES",
+  "official_sources": [
+    {
+      "source_id": "AU-TAS-INLAND-CODE",
+      "url": "https://www.ifs.tas.gov.au/tasmanian-inland-fishing-code",
+      "purpose": [
+        "RULES",
+        "SEASONS",
+        "LIMITS",
+        "METHODS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-TAS-SEAWARD-LIMITS",
+      "url": "https://fishing.tas.gov.au/recreational-fishing/rules/area-restrictions/seaward-limits-and-inland-waters",
+      "purpose": [
+        "JURISDICTION_BOUNDARY"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

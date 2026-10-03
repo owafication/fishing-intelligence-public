@@ -1,0 +1,22 @@
+{
+  "observations": [
+    {
+      "id": "nav_notice",
+      "domain": "NAVIGATION_NOTICES",
+      "applicability": "REQUIRED",
+      "spatial_relation": "INTERSECTS",
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "nav_notice",
+        "constrains_plan": true,
+        "readiness_effect": "NONE"
+      }
+    ]
+  },
+  "synthetic": true
+}

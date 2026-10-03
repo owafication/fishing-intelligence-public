@@ -1,0 +1,9 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "webcam_visible": true
+  },
+  "expected": {
+    "operational_status_inference": false
+  }
+}

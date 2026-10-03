@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "requested_year": 2026,
+    "available_table_year": 2025
+  },
+  "expected": {
+    "promote_to_current_authoritative_tide": false
+  }
+}

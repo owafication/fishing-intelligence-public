@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "observations": [
+    {
+      "id": "conditional_nav",
+      "domain": "NAVIGATION_NOTICES",
+      "applicability": "CONDITIONAL",
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "conditional_nav",
+        "constrains_plan": true,
+        "readiness_effect": "BLOCK"
+      }
+    ]
+  }
+}

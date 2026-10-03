@@ -1,0 +1,110 @@
+{
+  "region_id": "AU-NT-DARWIN",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "source_id": "AU-AUSSEABED-NTHAUS30-2018",
+      "provider": "Geoscience Australia / AusSeabed",
+      "dataset": "AusBathyTopo (Northern Australia) 30m 2018 (20180020C / GA 121620)",
+      "purpose": [
+        "BATHYMETRY",
+        "TERRAIN_PROSPECT_GENERATION"
+      ],
+      "authority_class": "SCIENTIFIC",
+      "coverage": {
+        "west": 121.0,
+        "south": -18.0,
+        "east": 133.0,
+        "north": -8.0
+      },
+      "horizontal_datum": "WGS84",
+      "vertical_datum": "APPROX_MSL",
+      "grid_resolution": "0.0003 degrees (~30 m)",
+      "source_resolution_m": 30,
+      "navigation_suitable": false,
+      "use_limitations": [
+        "Not to be used for navigation.",
+        "Compilation contains source data of varying resolution/accuracy and interpolation/base-grid replacement.",
+        "30 m cell spacing is not a guarantee of 30 m positional/depth accuracy everywhere."
+      ],
+      "doi": "10.4225/25/5B35B3B8074A9",
+      "metadata_url": "https://researchdata.edu.au/ausbathytopo-northern-australia-model-20180020c/3440316",
+      "bulk_download": "~4.0 GB; not bundled in portable plugin",
+      "status": "ACTIVE_REFERENCE",
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-AUSSEABED-COVERAGE",
+      "provider": "AusSeabed",
+      "dataset": "Bathymetry Coverage",
+      "purpose": [
+        "DATASET_DISCOVERY"
+      ],
+      "authority_class": "SCIENTIFIC",
+      "source_resolution_m": null,
+      "navigation_suitable": false,
+      "use_limitations": [
+        "Coverage polygons may not represent true survey extent because of gridding.",
+        "Per-survey cell size is not recoverable from the coverage layer.",
+        "Do not generate precise prospect geometry from this coverage layer."
+      ],
+      "source_url": "https://ausseabed.gov.au/data/bathymetry",
+      "status": "ACTIVE_REFERENCE",
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-NT-GOV-LOW-TIDE-AERIAL-2024",
+      "provider": "Northern Territory Government",
+      "dataset": "Aerial imagery of popular fishing locations captured near low tide on 18 October 2024",
+      "purpose": [
+        "INTERTIDAL_STRUCTURE_REFERENCE"
+      ],
+      "authority_class": "OFFICIAL",
+      "source_resolution_m": null,
+      "navigation_suitable": false,
+      "capture_context": "within an hour of Darwin Harbour low tide; low tide stated as 0.34 m at 12:44 pm",
+      "use_limitations": [
+        "Reference only and not for navigation.",
+        "Sandbars and navigation channels can change.",
+        "Page says images are shared under Creative Commons with NT Government credit, but this plugin does not assume a specific CC variant absent an exact licence statement."
+      ],
+      "source_url": "https://nt.gov.au/marine/recreational-fishing/when-and-where-to-fish/aerial-imagery-popular-fishing-locations",
+      "status": "ACTIVE_REFERENCE",
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-NT-GOV-ARTIFICIAL-REEFS",
+      "provider": "Northern Territory Government",
+      "dataset": "Artificial reefs in the NT",
+      "purpose": [
+        "OFFICIAL_STRUCTURE_LOCATION",
+        "SPECIES_GUIDANCE_REFERENCE"
+      ],
+      "authority_class": "OFFICIAL",
+      "navigation_suitable": false,
+      "use_mode": "LINK_REFERENCE",
+      "use_limitations": [
+        "Published positions/depths are approximate.",
+        "An official reef location remains OFFICIAL_LOCATION; a fishing search halo is a separate GENERATED_PROSPECT."
+      ],
+      "source_url": "https://nt.gov.au/marine/recreational-fishing/when-and-where-to-fish/artificial-reefs",
+      "status": "ACTIVE_REFERENCE"
+    },
+    {
+      "source_id": "AU-NT-GOV-REEF-FISH-PROTECTION-AREAS",
+      "provider": "Northern Territory Government",
+      "dataset": "Reef fish protection areas",
+      "purpose": [
+        "LEGAL_SPATIAL_EXCLUSION"
+      ],
+      "authority_class": "OFFICIAL",
+      "use_mode": "LINK_REFERENCE",
+      "use_limitations": [
+        "Verify current boundaries and legal effect before operational planning.",
+        "Closure/protection geometry is an exclusion overlay, not fishing-prospect evidence."
+      ],
+      "source_url": "https://nt.gov.au/marine/recreational-fishing/when-and-where-to-fish/reef-fish-protection-areas",
+      "status": "ACTIVE_REFERENCE"
+    }
+  ]
+}

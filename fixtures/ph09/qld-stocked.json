@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-QLD",
+    "water_regime": "STOCKED_IMPOUNDMENT",
+    "mode": "LAKE"
+  },
+  "expected": {
+    "pack": "AU-QLD",
+    "permit_overlay": "SIPS_VERIFY_CURRENT",
+    "readiness": "REFERENCE_READY"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nthaus30-30m-relief",
+  "input": {
+    "source_id": "AU-AUSSEABED-NTHAUS30-2018",
+    "cell_size_m": 30,
+    "min_local_relief_m": 3,
+    "grid": [
+      [
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      [
+        10,
+        10,
+        11,
+        13,
+        14
+      ],
+      [
+        10,
+        10,
+        12,
+        16,
+        17
+      ],
+      [
+        10,
+        10,
+        11,
+        14,
+        15
+      ],
+      [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    ]
+  },
+  "expected": {
+    "status": "OK",
+    "area_count": 1,
+    "minimum_search_width_m": 90,
+    "minimum_search_height_m": 150,
+    "output_resolution_m": 30,
+    "navigation_suitable": false,
+    "evidence_class": "HYPOTHESIS"
+  }
+}

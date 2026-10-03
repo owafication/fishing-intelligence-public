@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-NT",
+    "region": "AU-NT-DARWIN",
+    "water_regime": "TIDAL_ESTUARY",
+    "mode": "TRAILER_BOAT"
+  },
+  "expected": {
+    "pack": "AU-NT",
+    "regional_readiness": "PROSPECT_READY"
+  }
+}

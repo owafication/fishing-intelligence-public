@@ -1,0 +1,11 @@
+{
+  "input": {
+    "jurisdiction": "AU-TAS",
+    "water_regime": "UNKNOWN_BOUNDARY",
+    "mode": "RIVER"
+  },
+  "expected": {
+    "result": "BLOCKED_BOUNDARY_AMBIGUOUS",
+    "reason": "MARINE_VS_INLAND_AUTHORITY_UNRESOLVED"
+  }
+}

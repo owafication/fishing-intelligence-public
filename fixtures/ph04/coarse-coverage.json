@@ -1,0 +1,13 @@
+{
+  "id": "coverage-without-cell-size",
+  "input": {
+    "source_id": "AU-AUSSEABED-COVERAGE",
+    "cell_size_m": null,
+    "geometry_type": "coverage_polygon"
+  },
+  "expected": {
+    "prospect_generation": "BLOCKED_PRECISE_GEOMETRY",
+    "allowed": "DATASET_DISCOVERY",
+    "navigation_suitable": false
+  }
+}

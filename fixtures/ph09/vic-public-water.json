@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-VIC",
+    "water_regime": "INLAND_FRESHWATER",
+    "mode": "RIVER"
+  },
+  "expected": {
+    "pack": "AU-VIC",
+    "licence_check": "RFL_REQUIRED_UNLESS_EXEMPT",
+    "readiness": "REFERENCE_READY"
+  }
+}

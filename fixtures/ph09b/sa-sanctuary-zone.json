@@ -1,0 +1,10 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "marine_park_zone": "SANCTUARY"
+  },
+  "expected": {
+    "admission": "REJECTED",
+    "reason": "NO_TAKE_FISHING_ZONE"
+  }
+}

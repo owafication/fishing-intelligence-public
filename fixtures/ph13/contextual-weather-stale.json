@@ -1,0 +1,21 @@
+{
+  "observations": [
+    {
+      "id": "context_weather",
+      "domain": "WEATHER_WARNINGS",
+      "applicability": "NOT_APPLICABLE",
+      "verification": "STALE",
+      "material": false
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "context_weather",
+        "constrains_plan": false,
+        "readiness_effect": "NONE"
+      }
+    ]
+  },
+  "synthetic": true
+}

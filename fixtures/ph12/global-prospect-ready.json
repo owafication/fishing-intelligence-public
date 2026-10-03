@@ -1,0 +1,46 @@
+{
+  "synthetic": true,
+  "mode": "powered_boat",
+  "domains": {
+    "FISHERIES_RULES": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "LICENSING_PERMITS": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "AREA_CLOSURES_PROTECTED": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "ACCESS": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "BOATING_SAFETY": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "NAVIGATION_NOTICES": {
+      "verification": "VERIFIED_CURRENT"
+    },
+    "WEATHER_WARNINGS": {
+      "verification": "VERIFIED_CURRENT"
+    }
+  },
+  "prospect_sources_adequate": true,
+  "expected": {
+    "pack_class": "GENERATED_PROVISIONAL",
+    "required_domains": [
+      "ACCESS",
+      "AREA_CLOSURES_PROTECTED",
+      "BOATING_SAFETY",
+      "FISHERIES_RULES",
+      "LICENSING_PERMITS",
+      "NAVIGATION_NOTICES",
+      "WEATHER_WARNINGS"
+    ],
+    "missing": [],
+    "conflicting": [],
+    "stale": [],
+    "readiness": "PROSPECT_READY",
+    "self_promotes": false,
+    "reuse_requires_freshness_recheck": true
+  }
+}

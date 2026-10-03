@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-SA",
+    "water_regime": "RESERVOIR",
+    "mode": "LAKE"
+  },
+  "expected": {
+    "pack": "AU-SA",
+    "permit_overlay": "RESERVOIR_PERMIT_VERIFY_CURRENT",
+    "readiness": "REFERENCE_READY"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "input": {
+    "region": "AU-SA-ADELAIDE-GSV",
+    "rules": "VERIFIED_CURRENT",
+    "marine_parks": "VERIFIED_CURRENT",
+    "access": "VERIFIED_CURRENT",
+    "forecast": "VERIFIED_CURRENT",
+    "tide_required": false
+  },
+  "expected": {
+    "regional_capability": "PLANNING_READY",
+    "prospect_capability": "NOT_YET_PROSPECT_READY"
+  }
+}

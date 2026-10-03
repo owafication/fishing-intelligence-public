@@ -1,0 +1,10 @@
+{
+  "input": {
+    "jurisdiction": "AU-SA",
+    "request": "full local trip plan"
+  },
+  "expected": {
+    "rule_verification": "SUPPORTED",
+    "local_planning_depth": "PROVISIONAL_UNTIL_LOCAL_ACCESS_PROSPECT_ADAPTERS"
+  }
+}

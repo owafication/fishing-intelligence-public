@@ -1,0 +1,13 @@
+{
+  "input": {
+    "jurisdiction": "AU-WA",
+    "water_regime": "MARINE",
+    "mode": "TRAILER_BOAT",
+    "powered": true
+  },
+  "expected": {
+    "pack": "AU-WA",
+    "licence_check": "ACTIVITY_MODE_SPECIFIC_VERIFY_CURRENT",
+    "readiness": "REFERENCE_READY"
+  }
+}

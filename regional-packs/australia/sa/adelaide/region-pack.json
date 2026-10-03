@@ -1,0 +1,66 @@
+{
+  "region_id": "AU-SA-ADELAIDE-GSV",
+  "name": "Metropolitan Adelaide and Gulf St Vincent",
+  "version": "0.1.0",
+  "readiness": "PLANNING_READY",
+  "parent_jurisdiction": "AU-SA",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY"
+  ],
+  "supported_modes": [
+    "TRAILER_BOAT",
+    "KAYAK",
+    "SHORE",
+    "BEACH"
+  ],
+  "planning_scope": {
+    "rules": "SUPPORTED",
+    "closures": "SUPPORTED",
+    "licence_or_permit": "SUPPORTED_FOR_GENERAL_RECREATIONAL_MARINE_FISHING",
+    "marine_parks": "SUPPORTED",
+    "marine_forecast": "SUPPORTED_IF_HOST_WEB_AVAILABLE",
+    "ramp_candidates": "SUPPORTED",
+    "current_ramp_status": "VERIFY_LIVE_PER_PLAN",
+    "tide_dependent_access": "SUPPORTED_ONLY_WHEN_AUTHORITATIVE_EXACT_TIDE_IS_RESOLVED",
+    "generated_prospects": "NOT_CLAIMED"
+  },
+  "access_facilities": [
+    {
+      "id": "AU-SA-RAMP-NORTH-HAVEN",
+      "name": "North Haven boat ramp",
+      "type": "BOAT_RAMP",
+      "evidence": [
+        "AU-SA-MARINESAFETY-WEBCAMS"
+      ],
+      "status_rule": "facility existence supported; current operational status must be checked"
+    },
+    {
+      "id": "AU-SA-RAMP-WEST-BEACH",
+      "name": "West Beach boat ramp",
+      "type": "BOAT_RAMP",
+      "evidence": [
+        "AU-SA-MARINESAFETY-WEBCAMS",
+        "AU-SA-WEST-BEACH-WORKS"
+      ],
+      "status_rule": "verify works/access impacts before use"
+    },
+    {
+      "id": "AU-SA-RAMP-OSULLIVAN",
+      "name": "O'Sullivan Beach boat ramp",
+      "type": "BOAT_RAMP",
+      "evidence": [
+        "AU-SA-DIT-OSULLIVAN-RAMP",
+        "AU-SA-ONKAPARINGA-RAMP"
+      ],
+      "status_rule": "verify current access, fee/permit and works notices before use; do not persist temporary fee arrangements as current"
+    }
+  ],
+  "limitations": [
+    "PLANNING_READY does not imply safety certification.",
+    "Generated local fishing prospects are not yet claimed for this region.",
+    "MarineSafety webcam images are advisory/current-condition references and do not prove an access facility is operational.",
+    "Exact tide-dependent access remains provisional/blocked if an authoritative tide prediction cannot be resolved.",
+    "Navigation notices and prospect geometry are not substitutes for marine navigation products."
+  ]
+}

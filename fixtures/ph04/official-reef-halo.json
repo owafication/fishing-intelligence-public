@@ -1,0 +1,14 @@
+{
+  "id": "official-reef-separate-halo",
+  "input": {
+    "location_origin": "OFFICIAL_LOCATION",
+    "structure": "artificial_reef",
+    "request": "generate search area around it"
+  },
+  "expected": {
+    "official_record_preserved": true,
+    "new_record_origin": "GENERATED_PROSPECT",
+    "prospect_type": "ARTIFICIAL_STRUCTURE_HALO",
+    "navigation_suitable": false
+  }
+}

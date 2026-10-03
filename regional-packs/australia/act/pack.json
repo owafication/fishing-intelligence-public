@@ -1,0 +1,22 @@
+{
+  "jurisdiction_id": "AU-ACT",
+  "name": "Australian Capital Territory",
+  "readiness": "REFERENCE_READY",
+  "authority": "ACT Government",
+  "water_regimes": [
+    "INLAND_FRESHWATER"
+  ],
+  "licence_model": "NO_GENERAL_RECREATIONAL_LICENCE_FOR_PUBLIC_ACT_WATERS; VERIFY_CURRENT_RULES",
+  "official_sources": [
+    {
+      "source_id": "AU-ACT-REC-FISHING",
+      "url": "https://www.act.gov.au/environment/animals-and-plants/animals/wildlife-management/fish/recreational-fishing-in-the-act",
+      "purpose": [
+        "RULES",
+        "SEASONS",
+        "AREA_CLASSIFICATION"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

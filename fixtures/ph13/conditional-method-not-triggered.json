@@ -1,0 +1,22 @@
+{
+  "observations": [
+    {
+      "id": "keeper_rule",
+      "domain": "FISHERIES_RULES",
+      "applicability": "CONDITIONAL",
+      "condition_triggered": false,
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "keeper_rule",
+        "constrains_plan": false,
+        "readiness_effect": "NONE"
+      }
+    ]
+  },
+  "synthetic": true
+}

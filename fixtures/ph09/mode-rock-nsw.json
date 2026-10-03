@@ -1,0 +1,11 @@
+{
+  "input": {
+    "jurisdiction": "AU-NSW",
+    "water_regime": "MARINE",
+    "mode": "ROCK"
+  },
+  "expected": {
+    "mode_overlay": "VERIFY_DECLARED_AREA_LEGAL_REQUIREMENTS",
+    "uses_common_kernel": true
+  }
+}

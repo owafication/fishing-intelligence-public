@@ -1,0 +1,44 @@
+{
+  "jurisdiction_id": "AU-SA",
+  "name": "South Australia",
+  "readiness": "REFERENCE_READY",
+  "authority": "PIRSA",
+  "water_regimes": [
+    "MARINE",
+    "TIDAL_ESTUARY",
+    "INLAND_FRESHWATER",
+    "RESERVOIR"
+  ],
+  "licence_model": "NO_GENERAL_RECREATIONAL_FISHING_LICENCE; RESERVOIR_PERMITS_REQUIRED_WHERE_APPLICABLE",
+  "official_sources": [
+    {
+      "source_id": "AU-SA-RULES",
+      "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules",
+      "purpose": [
+        "RULES",
+        "CLOSURES",
+        "LIMITS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-SA-APP",
+      "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/sa-fishing-app",
+      "purpose": [
+        "CURRENT_RULE_GUIDANCE",
+        "CLOSURE_MAP",
+        "CATCH_REPORTING"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    },
+    {
+      "source_id": "AU-SA-RESERVOIR",
+      "url": "https://pir.sa.gov.au/fishing-and-aquaculture/recreational-fishing/rules/reservoir-fishing",
+      "purpose": [
+        "RESERVOIR_PERMIT",
+        "ACCESS"
+      ],
+      "use_mode": "LINK_REFERENCE"
+    }
+  ]
+}

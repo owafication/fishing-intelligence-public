@@ -1,0 +1,18 @@
+{
+  "artifact": "fishing-intelligence-public-open-source",
+  "version": "0.15.2",
+  "release": "initial-public-open-source",
+  "runtime_mode": "portable-only",
+  "license": "Apache-2.0",
+  "dedicated_hosting_required": false,
+  "persistent_storage_required": false,
+  "documentation_included": true,
+  "external_source_material_embedded": false,
+  "external_source_links_included": true,
+  "static_validation": "PASS",
+  "public_disclosure_scan": "PASS",
+  "static_checks": 3603,
+  "deterministic_fixture_cases": 47,
+  "json_files": 66,
+  "file_count": 188
+}

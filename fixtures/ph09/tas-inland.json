@@ -1,0 +1,12 @@
+{
+  "input": {
+    "jurisdiction": "AU-TAS-INLAND",
+    "water_regime": "INLAND_FRESHWATER",
+    "mode": "LAKE"
+  },
+  "expected": {
+    "pack": "AU-TAS-INLAND",
+    "licence_check": "INLAND_LICENCE_VERIFY_CURRENT",
+    "readiness": "REFERENCE_READY"
+  }
+}

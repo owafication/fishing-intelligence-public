@@ -1,0 +1,22 @@
+{
+  "observations": [
+    {
+      "id": "nav_notice",
+      "domain": "NAVIGATION_NOTICES",
+      "applicability": "UNRESOLVED",
+      "spatial_relation": "UNRESOLVED",
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "nav_notice",
+        "constrains_plan": true,
+        "readiness_effect": "BLOCK"
+      }
+    ]
+  },
+  "synthetic": true
+}

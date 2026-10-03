@@ -1,0 +1,22 @@
+{
+  "observations": [
+    {
+      "id": "protected_zone",
+      "domain": "AREA_CLOSURES_PROTECTED",
+      "applicability": "REQUIRED",
+      "spatial_relation": "DOES_NOT_INTERSECT",
+      "verification": "VERIFIED_CURRENT",
+      "material": true
+    }
+  ],
+  "expected": {
+    "results": [
+      {
+        "id": "protected_zone",
+        "constrains_plan": false,
+        "readiness_effect": "NONE"
+      }
+    ]
+  },
+  "synthetic": true
+}
